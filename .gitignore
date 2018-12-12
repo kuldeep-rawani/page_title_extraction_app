@@ -1,0 +1,7 @@
+.vscode
+env
+freightcrate
+!.gitignore
+*.pyc
+**/migrations/*.py
+**/migrations/*.pyc
