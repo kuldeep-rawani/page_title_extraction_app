@@ -118,7 +118,7 @@ function create_post() {
             var responsedata = response['data']
             $.each(responsedata, function( index, value ) {
                 var  num = parseInt(index) + 1
-                $(".result").append('<p>Url '+ num +' -></strong> '+ value.title +'</p>');
+                $(".result").append('<p>'+value.url +' -></strong> '+ value.title +'</p>');
             });
         },
         // handle a non-successful response

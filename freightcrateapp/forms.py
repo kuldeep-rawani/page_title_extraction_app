@@ -1,7 +1,9 @@
 from django import forms
 from django.forms import (formset_factory)
 
-
+""" url form 
+@param django form 
+"""
 class UrlForm(forms.Form):
     url = forms.CharField(
         label='Url',
